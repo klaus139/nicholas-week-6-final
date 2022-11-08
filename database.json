@@ -1,0 +1,24 @@
+[
+  {
+    "Uid": "e1efbc8c-a297-47ff-9fc8-87e56cf5a21e",
+    "Title": "Harry Potter and The Chamber of Secret",
+    "Author": "J. K. Rowlings",
+    "datePublished": "2022-11-02T13:37:56.266Z",
+    "Description": "Harry Potter and The Chamber of Secret",
+    "pageCount": 2478,
+    "Genre": "Mystery, Documentary, Fantasy",
+    "bookId": 3,
+    "Publisher": "Bottom Put"
+  },
+  {
+    "Uid": "2f63a06f-7f7b-4501-b913-590bd58dc191",
+    "Title": "The king slayer",
+    "Author": "Nicklaus",
+    "datePublished": "2022-11-07T11:59:50.578Z",
+    "Description": "A man at his ends wants to slay the one person who made him lose it all",
+    "pageCount": 2334,
+    "Genre": "Adventure",
+    "bookId": 4,
+    "Publisher": "frisco"
+  }
+]

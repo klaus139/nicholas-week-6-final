@@ -1,0 +1,46 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="create-blog content">
+    <div class="card-header rounded-pill">
+      <h2 class="card-title">Add a new book</h2>
+    </div>
+    <form action="/api/books" method="POST">
+      <div class="form-group">
+        <label for="title" class="form-label">Title:</label>
+        <input type="text" name="Title" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="snippet" class="form-label">Book Author:</label>
+        <input type="text" class="form-control" name="Author" required>
+      </div>
+      <div class="form-group">
+        <label for="snippet" class="form-label">Book description:</label>
+        <textarea class="form-control" name="Description" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="snippet" class="form-label">Pagecount:</label>
+        <input type="text" class="form-control" name="pageCount" required>
+      </div>
+      <div class="form-group">
+        <label for="snippet" class="form-label">Book Genre(s):</label>
+        <input type="text" class="form-control" name="Genre" required>
+      </div>
+      <div class="form-group">
+        <label for="body" class="form-label">Publisher:</label>
+        <input type="text" class="form-control"" name="Publisher" required>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-success mx-auto w-25">Submit</button>
+      </div>
+    </form>
+
+    <a href="/api/books" class="btn btn-secondary">Go to Home</a>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
